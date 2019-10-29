@@ -65,6 +65,10 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+h1 {
+    font-size: 40px
+}
+
 p {
     line-height: 1.4;
 }
@@ -83,14 +87,89 @@ nav a {
     color: black;
     
 }
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 600px;
+    height: 400px;
+    /* Form outline */
+    padding: 1em;
+    
+    margin-bottom: 5%;
+    text-align: center;
+    padding-top: 5%;
+  }
+  
+  form div + div {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    margin-bottom: 2%;
+  }
+  
+  input, 
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em;
+    font-family: 'Roboto', sans-serif;
+
+  
+    /* Uniform text field size */
+    width: 400px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1.5px solid #5A555A;
+    border-radius: 1em;
+  }
+  
+  input:focus, 
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 15em;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 90px;
+    background: white;
+    /* same size as the label elements */
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: .5em;
+    background: white;
+    border: 1.5px solid black;
+    height: 40px;
+    width: 200px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+  }
 
 .LineBrkImg {
     width: 100%;
     margin-bottom: 3%;
 }
 
-
-
+.TopContent {
+    margin-bottom: 5%;
+}
 
 
 footer {
