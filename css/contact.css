@@ -115,6 +115,7 @@ form {
     box-sizing: border-box;
     border: 1.5px solid #5A555A;
     border-radius: 1em;
+    padding-left: 2%;
   }
   
   input:focus, 
